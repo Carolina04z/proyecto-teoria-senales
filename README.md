@@ -21,3 +21,13 @@ Este proyecto estudia y procesa señales acústicas transitorias de corta duraci
 2. Instalar las dependencias necesarias de Python ejecutando en la terminal:
    ```bash
    pip install numpy scipy matplotlib
+
+## 5. Conceptos de Teoría de Señales Utilizados
+* **Muestreo y Teorema de Nyquist:** Selección de la frecuencia de muestreo ($f_s$) para capturar transitorios acústicos sin aliasing.
+* **Representación Temporal:** Gráficas de amplitud frente al tiempo para analizar la duración y la evolución de los transitorios.
+* **Energía a Corto Plazo (STE):** Métrica temporal empleada para ubicar el instante exacto del evento acústico.
+* **Transformada Rápida de Fourier (FFT):** Herramienta matemática para pasar la señal del dominio del tiempo al dominio de la frecuencia y observar las diferencias espectrales entre un aplauso y un golpe.
+
+## 6. Referencias
+* Oppenheim, A. V., & Schafer, R. W. (2009). *Discrete-Time Signal Processing* (3rd ed.). Pearson. (Referencia técnica fundamental en inglés para el análisis de señales en frecuencia).
+* Guía de actividades del curso de Teoría de Señales, Universidad de Manizales, 2026.
